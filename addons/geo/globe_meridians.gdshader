@@ -2,12 +2,12 @@ shader_type spatial;
 render_mode unshaded, cull_back, depth_draw_opaque;
 
 // Grid color
-uniform vec4 line_color : source_color = vec4(1.0,1.0,1.0,1.0);
+uniform vec4 line_color : source_color = vec4(1.0,1.0,1.0,0.05);
 
 // Grid parameters
-uniform int num_meridians : hint_range(2, 128) = 24;
-uniform int num_latitudes : hint_range(2, 64) = 12;
-uniform float line_width = 0.01; // radians
+uniform int num_meridians : hint_range(2, 128) = 128;
+uniform int num_latitudes : hint_range(2, 64) = 64;
+uniform float line_width = 0.0001; // radians
 
 // LOD based on camera distance
 uniform float zoom = 1.0; // camera distance or zoom factor

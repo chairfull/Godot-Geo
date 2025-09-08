@@ -1,6 +1,8 @@
 # GeoJSON for Godot - early dev 0.1
 Not ready.
 
+![](README/preview.png)
+
 # Features
 - [x] MultiPolygon
 	- [x] Loading
