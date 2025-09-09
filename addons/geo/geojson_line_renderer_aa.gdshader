@@ -37,8 +37,8 @@ void vertex() {
 }
 
 void fragment() {
-    float alpha = 1.0 - abs(UV.x) * 2.0; // fade from center to edge
+    float alpha = 1.0 - abs(UV.x) * 2.0;
     alpha = clamp(alpha, 0.0, 1.0);
-    ALBEDO = vec3(1.0);
+    ALBEDO *= COLOR.rgb;
     ALPHA = alpha;
 }

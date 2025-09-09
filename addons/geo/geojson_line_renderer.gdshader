@@ -46,5 +46,5 @@ void vertex() {
 }
 
 void fragment() {
-	ALBEDO = vec3(1.0); // white; change as needed
+	ALBEDO *= COLOR.rgb;
 }

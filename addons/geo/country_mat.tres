@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c67vehyqy45wl"]
+
+[resource]
+diffuse_mode = 3
+specular_mode = 1
+vertex_color_use_as_albedo = true
+roughness = 0.7
+grow_amount = 0.06

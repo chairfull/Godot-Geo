@@ -1,7 +1,7 @@
 # GeoJSON for Godot - early dev 0.1
 Not ready.
 
-![](README/preview.png)
+![](README/preview2.png)
 
 # Features
 - [x] MultiPolygon
@@ -30,3 +30,9 @@ Not ready.
 	- [ ] Edge clamping
 - [ ] Center camera on lat,lon
 - [ ] Center camera on polygon area
+
+# Problems To Solve
+- [ ] Polygons are flat in the center, so clip with sphere.
+	- [x] Add depth in shader.
+	- [ ] Add vertices to middle of polygon?
+	- [ ] Create shader that displaces?
